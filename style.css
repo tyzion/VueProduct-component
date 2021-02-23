@@ -1,0 +1,68 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  display: flex;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.product-image {
+  margin-right: 10px;
+}
+
+.product-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart-section {
+  display: flex;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+
+.disabledButton button {
+  background-color: gray;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+}
+
+.cart {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  background-color: yellowgreen;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin-left: 10px;
+}
+
+.blue-font {
+  color: blue;
+}
+
+.outOfStock {
+  text-decoration: line-through;
+}
+
+.almost-out {
+  color: red;
+}
